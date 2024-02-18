@@ -7,20 +7,23 @@ Class relationships in Java define the special relationships among different kin
 
    **Java**
    
-   I have built 3 different files namely:  Library.java, Book.java, Main.java and corresponding code is given below:
+   I have built 3 different files namely:  Phone.java, LandlinePhone.java, MobilePhone.java, Main.java and corresponding code is given below:
    
-   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/f96c60e7-4107-46b9-bf5a-da18affedafb)
+   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/0ca9f6e6-0e3c-45cd-8a74-8af077e3c0b9)
 
-   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/dcc2fbd3-f1f5-42f2-982b-2b95885741a9)
+   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/3ee8c055-ae93-45fa-a922-221dc03dc8f3)
 
-   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/ec31fe7f-badd-45cb-a9f2-12012ed1bc2b)
+   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/4906956d-f448-456a-8b53-8e899bd4016a)
 
-   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/89c4186a-c3ce-4344-823e-1d2d6981eeb4)
+   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/82547730-36a2-4fcf-a499-3c3e50523775)
+
+   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/5f947107-47bb-4b3e-865c-b097d16b2c71)
 
    **JavaScript**
 
-   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/a30064ff-dcea-4f5f-89a7-806bf3606f05)
-   
+   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/36d59530-3b38-478f-8c65-46f4258052e7)
+
+   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/cda8a952-40e4-4459-88e3-d73de543771a)
    
 2) **Association (Has-A)**
 
@@ -43,14 +46,37 @@ Class relationships in Java define the special relationships among different kin
 
    ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/841b2f1a-4fda-48e5-859e-e06fd459a215)
 
-4) **Inheritance (Is-A)**
+   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/d3279c83-0fc3-40ae-a9a1-37d4ba49a123)
+
+
+3) **Inheritance (Is-A)**
 
    Inheritance represents Is-a relationship in Java. It establishes a relationship between a more general class (known as superclass) and a more specialized class (known as subclass).
    In other words, Is-A relationship defines the relationship between two classes in which one class extends another class.
 
    **Java**
 
-   I have built 3 different files namely:  Library.java, Book.java, Main.java and corresponding code is given below:
+   I have built 3 different files namely:  Fruit.java, Apple.java, Main.java and corresponding code is given below:
+
+   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/ead11673-cc87-461d-9b18-114c10477060)
+
+   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/e584f09e-1595-4b81-a780-1162f7ce777e)
+
+   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/2256ff7a-2a04-4706-8ab0-92195d09f45f)
+
+   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/49ec1df9-f0da-4ec0-a4b9-54554dbcad73)
+
+   **JavaScript**
+   
+   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/3e7f8879-7df2-4f80-ba83-d4e33bff97a1)
+
+   ![image](https://github.com/manasvi007/Relationships_java/assets/98056259/56c29a22-2ea8-437d-9b5b-332bed3d0539)
+
+
+
+
+
+
 
    
 
