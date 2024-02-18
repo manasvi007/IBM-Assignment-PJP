@@ -21,6 +21,21 @@ Class relationships in Java define the special relationships among different kin
              }
          }
 
+            public class Library{
+    private Book[] books; // has-a relationship
+
+    public Library(Book[] books) {
+        this.books = books;
+    }
+
+    public void displayBooks() {
+        System.out.println("Books available in the library:");
+        for (Book book : books) {
+            System.out.println("- " + book.getTitle());
+        }
+    }
+}
+
 
 
          public class Main {
@@ -37,6 +52,7 @@ Class relationships in Java define the special relationships among different kin
               myLibrary.displayBooks();
           }
        }
+![image](https://github.com/manasvi007/Relationships_java/assets/98056259/3911e352-3900-40b7-a98e-d124adb7b526)
 
 
     
