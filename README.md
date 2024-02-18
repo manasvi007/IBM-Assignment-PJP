@@ -8,11 +8,16 @@ Class relationships in Java define the special relationships among different kin
    
    I have built 3 different files namely:  Library.java, Book.java, Main.java and corresponding code is given below:
    
-   '''// Library.java
+   '''
+
+    // Library.java
+   
     public class Library {
+   
     private Book[] books; // has-a relationship
 
     public Library(Book[] books) {
+   
         this.books = books;
     }
 
@@ -49,7 +54,9 @@ public class Main {
         Library myLibrary = new Library(libraryBooks);
         myLibrary.displayBooks();
     }
-}'''
+}
+
+'''
     
 2) **Association (Has-A)**
 4) **Inheritance (Is-A)**
