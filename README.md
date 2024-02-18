@@ -7,57 +7,25 @@ Class relationships in Java define the special relationships among different kin
    **JAVA**
    
    I have built 3 different files namely:  Library.java, Book.java, Main.java and corresponding code is given below:
+
    
-   '''
-
-    // Library.java
+         public class Main {
    
-    public class Library {
+          public static void main(String[] args) {
    
-    private Book[] books; // has-a relationship
+              Book[] libraryBooks = {
+              new Book("Java Programming"),
+              new Book("Data Structures and Algorithms"),
+              new Book("Introduction to JavaScript")
+            };
 
-    public Library(Book[] books) {
-   
-        this.books = books;
-    }
+              Library myLibrary = new Library(libraryBooks);
+              myLibrary.displayBooks();
+          }
+       }
 
-    public void displayBooks() {
-        System.out.println("Books available in the library:");
-        for (Book book : books) {
-            System.out.println("- " + book.getTitle());
-        }
-    }
-}
 
-// Book.java
-public class Book {
-    private String title;
-
-    public Book(String title) {
-        this.title = title;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-}
-
-// Main.java (Main class to test the program)
-public class Main {
-    public static void main(String[] args) {
-        Book[] libraryBooks = {
-            new Book("Java Programming"),
-            new Book("Data Structures and Algorithms"),
-            new Book("Introduction to JavaScript")
-        };
-
-        Library myLibrary = new Library(libraryBooks);
-        myLibrary.displayBooks();
-    }
-}
-
-'''
     
-2) **Association (Has-A)**
+1) **Association (Has-A)**
 4) **Inheritance (Is-A)**
    
